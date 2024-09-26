@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'TT Hoves', sans-serif;
+    color:#222;
+}
+
+section {
+    padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+}
+section.Course {
+    padding-top: calc(60px + (160 - 60) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: 120px;
+}
+.image h2 {    
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    width: calc(35.6vw + 194.6px);
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375))); 
+}
+.image {    
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 70px;      
+}
+.img {
+    width: calc(13.5vw + 277.4px);    
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+    margin-right:auto
+}
+.picture {
+    height: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+}
+.imgName {    
+    font-weight: 600;
+}
+.imgInfo {    
+    font-weight: 400;
+    margin-top: calc(10px + (20 - 10) * ((100vw - 375px) / (1280 - 375)));  
+}
